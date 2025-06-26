@@ -1,0 +1,1 @@
+##Let's say the model is created and we want to predict the new data, we would do it in predict_pipeline.py
