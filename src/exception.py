@@ -1,5 +1,6 @@
 import logging
 import sys
+from logger import logging
 
 import sys
 '''any exception that is getting controlled, the sys library will automatically have that information'''
@@ -30,9 +31,9 @@ class CustomException(Exception):  ##CustomException class inheriting from Excep
 ie error occured in python script name __ line no __ and so on'''
 
 
-if __name__ == "__main__":
-    try:
-        a= 1/0
-    except Exception as e :
-        logging.info("checking if exception works fine")
-        raise CustomException(e,sys)
+# if __name__ == "__main__":
+#     try:
+#         a= 1/0
+#     except Exception as e :
+#         logging.info("checking if exception works fine")
+#         raise CustomException(e,sys)

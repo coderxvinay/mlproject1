@@ -1,2 +1,0 @@
-##__init__.py file is created inside the components folder because components will be created as a package 
-#and can be imported to some other file location and to enable this we have to make a file __init__.py file 
